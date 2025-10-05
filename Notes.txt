@@ -1,0 +1,191 @@
+important Notes:
+##################
+
+ALTER TABLE student_dues MODIFY COLUMN waiver DOUBLE(10,2);
+
+Images Compressor add
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{$title}} - Uttara University</title>
+    @include('frontend.references.include-style')
+</head>
+
+<style>
+    .table th, .table td{
+        text-align: center;
+    }
+</style>
+
+<body>
+    @include('frontend.partials.preloader')
+    @include('frontend.partials.header')
+    @include('frontend.partials.searchbox')
+
+    {{-- #######
+            Content Start Here
+         --}}
+
+
+
+         <section class="pt-10 pb-10" data-overlay="8" style="background-image: url(images/page-banner-1.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="page-banner-cont">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#" style="font-size: 14px">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page" style="font-size: 14px">Payment Method Information
+                                    </li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="about-page" class="pt-30 pb-50 ">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title">
+                                <h5 style="font-size: 24px">Payment Method Information</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt-3">
+
+                            <p style="font-size: 14px;">For any help regarding payment, Please call: 01872607355, 01856484521, 01798117917</p>
+                            <p style="font-size: 14px;">You can pay by bKash (Pay Bill)-01872607355, & Rocket (Bills Pay)-2922</p>
+
+                            <div class="form-group pt-3">
+                                <a href="https://uttarauniversity.edu.bd/wp-content/uploads/2020/10/bKash-Payment-Instruction-New.pdf" target="_blank" class="btn btn-info col-xs-4 mt-1" style="color: black">bKash Payment Instruction</a>
+                                <a href="https://uttarauniversity.edu.bd/wp-content/uploads/2020/04/rocket-nexus-payment-instruction.pdf" target="_blank" class="btn btn-success col-xs-4 mt-1" style="color: black">Rocket & Nexus Payment Instruction</a>
+                                <a href="https://uttarauniversity.edu.bd/wp-content/uploads/2022/08/Uttara-University_Payment-Process.jpg" target="_blank" class="btn btn-primary col-xm-4 mt-1" style="color: black">Nagad Payment Instruction</a>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 rounded">
+                                    <div class="card mt-5 shadow">
+                                        <div class="card-header" style="background-image: linear-gradient(to right, rgb(15,0,164),rgb(4,67,235,0.6));">
+                                            <h6 style="text-align: center; color: #ffffff;" class="card-title">Mobile Banking</h6>
+                                        </div>
+
+                                        <div class="card-body">
+                                            <div class="table-responsive">
+
+                                                <table class="table table-bordered">
+
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>logo</td>
+                                                            <td>Bill Pay Billar No. 2922</td>
+                                                            <td>AC No. 10000000</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>logo</td>
+                                                            <td>Bill Pay Billar No. 2922</td>
+                                                            <td>AC No. 10000000</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>logo</td>
+                                                            <td>Bill Pay Billar No. 2922</td>
+                                                            <td>AC No. 10000000</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 rounded">
+                                    <div class="card mt-5 shadow">
+                                        <div class="card-header" style="background-image: linear-gradient(to right, rgb(15,0,164),rgb(4,67,235,0.6));">
+                                            <h6 style="text-align: center;color: #ffffff;" class="card-title">Bank Account</h6>
+                                        </div>
+                                        <div class="card-body">
+                                            <table class="table table-bordered">
+
+                                                <tbody>
+                                                    <tr>
+                                                        <td>logo</td>
+                                                        <td>0033-0210014448</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>logo</td>
+                                                        <td>0171020008688</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>logo</td>
+                                                        <td>0831101000001029</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>logo</td>
+                                                        <td>226-100-62</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>logo</td>
+                                                        <td>0100047211110</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>logo</td>
+                                                        <td>1110-11100000156</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>logo</td>
+                                                        <td>15211090021303</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card mt-5 shadow">
+                                        <div class="card-header" style="background-image: linear-gradient(to right, rgb(15,0,164),rgb(4,67,235,0.6));">
+                                            <h6 style="text-align: center;color: #ffffff;" class="card-title">Online Card Payment</h6>
+                                        </div>
+                                        <div class="card-body">
+                                            <table class="table table-bordered">
+
+                                                <tbody>
+                                                    <tr>
+                                                        <td>logo</td>
+                                                        <td>0033-0210014448</td>
+                                                        <td>0033-0210014448</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    {{--###########
+            Content end
+        --}}
+    @include('frontend.partials.footer')
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    @include('frontend.references.include-script')
+
+</body>
